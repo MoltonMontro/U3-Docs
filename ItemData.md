@@ -183,6 +183,8 @@ __Blueprint\_#\_Output\_#\_ID__: The ID of the unique product created.
 
 __Blueprint\_#\_Output\_#\_Amount__: The amount of the unique product created.
 
+__Blueprint\_#\_State_Transfer__: Item quality should be transferred.
+
 __Blueprint\_#\_Build__: The auditory effect ID to play.
 
 __Blueprint\_#\_Map__: Name of the map the condition applies to.
