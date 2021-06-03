@@ -759,13 +759,13 @@ __Spread_Crouch__: The spread multiplier when crouched. Defaults to 1.
 
 __Spread_Prone__: The spread multiplier when prone. Defaults to 1.
 
-__Ballistic_Force__: Measured in Newtons. Primarily applicable to the rocket action, and usage ignores all other advanced ballistic options.
+__Ballistic_Force__: Measured in Newtons. Applicable to the ranged weapons using physics projectiles with `Action Rocket`.
 
-__Ballistic_Steps__: Defaults to (range / 10).
+__Ballistic_Steps__: Lifespan of ballistic projectiles. Defaults to (range / 10).
 
-__Ballistic_Travel__: Defaults to 10.
+__Ballistic_Travel__: Used with ballistic projectiles. Defaults to 10.
 
-__Ballistic_Drop__: Defaults to 0.002.
+__Ballistic_Drop__: Used with ballistic projectiles. Defaults to 0.002.
 
 __Recoil_Aim__: Multiplier on all recoil parameters when aiming down sights. Defaults to 1.
 
