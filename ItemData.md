@@ -737,13 +737,13 @@ __Magazine_Caliber\_#__: ID of applicable caliber for magazine attachments.
 
 __Firerate__: The minimum number of ticks between the firing of each bullet.
 
-__Replace__: Multiplier of the reload animation length before the magazine is respawned.
+__Replace__: Multiplier on the reload animation length before the magazine is respawned.
 
-__Unplace__: Multiplier of the reload animation length before the magazine is despawned.
+__Unplace__: Multiplier on the reload animation length before the magazine is despawned.
 
 __Reload_Time__: Multiplier on reload animation length.
 
-__Action__: `Bolt`, `Break`, `Minigun`, `Pump`, `Rail`, `Rocket`, `String`, `Trigger`. Rocket action has inherently explosive projectiles, uses ballistic force instead of alternative advanced ballistics options, and has infinite firing range.
+__Action__: `Bolt`, `Break`, `Minigun`, `Pump`, `Rail`, `Rocket`, `String`, `Trigger`. The Rocket action utilizes physics projectiles, as opposed to ballistic projectiles. The projectiles are inherently explosive, and have infinite firing range.
 
 __Delete_Empty_Magazines__: Specified if the attached magazine should be deleted when depleted. Deprecated in favor of Should_Delete_Empty_Magazines.
 
@@ -759,7 +759,9 @@ __Spread_Crouch__: The spread multiplier when crouched. Defaults to 1.
 
 __Spread_Prone__: The spread multiplier when prone. Defaults to 1.
 
-__Ballistic_Force__: Measured in Newtons. Applicable to the ranged weapons using physics projectiles with `Action Rocket`.
+__Ballistic_Force__: Measured in Newtons. Used with physics projectiles.
+
+__Projectile_Lifespan__: Used with physics projectiles. Defaults to 30 seconds.
 
 __Ballistic_Steps__: Lifespan of ballistic projectiles. Defaults to (range / 10).
 
