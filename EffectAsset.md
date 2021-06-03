@@ -1,0 +1,1 @@
+__Relevant_Distance__: Specified to determine how far away players can be before an asset effect should not be sent to them, measured in meters. Players within this radius will be sent the effect in multiplayer.
