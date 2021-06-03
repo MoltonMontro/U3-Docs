@@ -39,13 +39,13 @@ __Slot__: `Primary`, `Secondary`, `Any`
 
 __ID__: The item ID is used to spawn the item into the game, and is represented as an unsigned 16 bit integer (a range of 0–65535). It is recommended not to use a value less than 2,000 as those are reserved for official content. It is also recommended to avoid any ID range being used by curated content, as those are often used by modded servers and custom Workshop maps.
 
-__Size_X__: The width of the item in the inventory.
+__Size_X__: Width of the item in the inventory.
 
-__Size_Y__: The height of the item in the inventory.
+__Size_Y__: Height of the item in the inventory.
 
-__Size_Z__: The size of the camera for item icons.
+__Size_Z__: Camera size for item icons.
 
-__Size2_Z__:
+__Size2_Z__: Orthogonal camera size for skin icons. Defaults to `0.0`.
 
 __Can_Use_Underwater__: `false`, `true`. Applicable to equipable items, and defaults to false for primary weapons.
 
