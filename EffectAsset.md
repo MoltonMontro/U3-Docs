@@ -14,7 +14,7 @@ General data
 
 **Lifetime** *float*: Duration of the effect.
 
-**Lifetime_Spread** *float*: Variation on the duration of the effect. A random value is chosen between the specified spread value, and the negative of that spread value. Default is 4 seconds.
+**Lifetime_Spread** *float*: Variation on the duration of the effect, measured in seconds. A random value is chosen between the specified spread value, and the negative of that spread value. Default value is 4 seconds.
 
 **Gore** *bool*: Effect is hidden when gore is disabled.
 
